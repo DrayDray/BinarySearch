@@ -19,6 +19,8 @@ public class BinarySearch {
 		//easy way to print the contents of an array
 		System.out.print(Arrays.toString(myIntArray));
 		System.out.println("\nThe length of this array is " + myIntArray.length);
+		
+		//Print the solution:
 		System.out.println("\nThe leftmost index of " + numToFind + " is " + printStartIndex(myIntArray, numToFind));
 	}
 
